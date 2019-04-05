@@ -1,4 +1,6 @@
-
+body {
+  margin: auto 18.5%;
+}
 /* header  */
 nav {
   margin-top: 30px;
@@ -8,6 +10,7 @@ nav {
 nav section {
   display: inline-block;
   width: 200px;
+
 }
 
 nav h2 {
@@ -49,13 +52,8 @@ nav li:nth-child(7) {
 
 /*   */
 
-body {
-  text-align: center;
-}
-
 main {
-  padding: 5em 0 0 0;
-  margin: auto 18.5%;
+  padding: 2em 0 0 0;
 }
 
 .listItems {
@@ -70,6 +68,13 @@ main {
   float: left;
   margin-top: 0;
   margin: 0 0 2em 0;
+  color: gray;
+  font-size: .9em;
+}
+
+#print {
+  color: gray;
+  font-size: .9em;
 }
 
 .floatRight {
@@ -83,12 +88,19 @@ main {
 h1 {
   float: left;
   margin-bottom: 0;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  letter-spacing: -2px;
 }
 
-main p {
+main section p {
   text-align: left;
+  text-indent: 2em;
 }
-
+p + p {
+  margin-top: 10px;
+}
 .notepad div {
   position: absolute;
   height: 305px;
