@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+}
+
+main {
+  padding: 5em 0 0 0;
+  margin: auto 18.5%;
+}
+
+/* #choco-pizza, #chocoTitle {
+  width: 100%;
+} */
+
+#chocoTitle {
+  display: inline-block;
+}
+
+#chocoTitle p {
+  float: left;
+  margin-top: 0;
+  margin: 0 0 2em 0;
+}
+
+.floatRight {
+  float: right;
+}
+
+h1 {
+  float: left;
+  margin-bottom: 0;
+}
+
+main p {
+  text-align: left;
+}
