@@ -70,6 +70,7 @@ main {
   margin: 0 0 2em 0;
   color: gray;
   font-size: .9em;
+  font-family: 'Muli', sans-serif;
 }
 
 #print {
@@ -103,8 +104,8 @@ p + p {
   margin-top: 10px;
 }
 .notepad div {
-  position: absolute;
   height: 305px;
+  background-image: url(img/list-bg.png)
 }
 
 #leftItems,
