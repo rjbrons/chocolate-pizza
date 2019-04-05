@@ -99,33 +99,50 @@ h1 {
 main section p {
   text-align: left;
   text-indent: 2em;
+  margin-top: 20px;
+  color: rgb(109, 108, 108);
+  font-size: 1.3em;
 }
 p + p {
   margin-top: 10px;
 }
 .notepad div {
   height: 305px;
-  background-image: url(img/list-bg.png)
+  background-image: url(img/list-bg.png);
+  margin-top: 20px;
 }
 
 #leftItems,
 #rightItems {
   position: absolute;
-  margin-top: 5em;
+  margin-top: 2.2em;
 }
 
 #leftItems {
-  left: 5%;
+  margin-left: 4em;
 }
 
 #rightItems {
-  right: 15%;
+  right: 23%;
+  width: 400px;
+}
+
+input[type="checkbox"] {
+  background: none;
+}
+
+.lineThrough {
+  text-decoration: line-through;
 }
 
 li {
-  font-size: 20px;
+  font-size: 23px;
   list-style-type: none;
   text-align: left;
+  color: rgb(95, 95, 95);
+  padding: 7px 0 0 0;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 200;
 }
 
 input {
