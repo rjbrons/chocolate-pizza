@@ -7,9 +7,9 @@ main {
   margin: auto 18.5%;
 }
 
-/* #choco-pizza, #chocoTitle {
-  width: 100%;
-} */
+.listItems {
+  width: 899px;
+}
 
 #chocoTitle {
   display: inline-block;
@@ -25,6 +25,10 @@ main {
   float: right;
 }
 
+.floatLeft {
+  float: left;
+}
+
 h1 {
   float: left;
   margin-bottom: 0;
@@ -32,4 +36,32 @@ h1 {
 
 main p {
   text-align: left;
+}
+
+.notepad div {
+  position: absolute;
+  height: 305px;
+}
+
+#leftItems, #rightItems {
+  position: absolute;
+  margin-top: 5em;
+}
+
+#leftItems {
+  left: 5%;
+}
+
+#rightItems {
+  right: 15%;
+}
+
+li {
+  font-size: 20px;
+  list-style-type: none;
+  text-align: left;
+}
+
+input {
+  margin-right: 2em;
 }
