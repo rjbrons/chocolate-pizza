@@ -1,3 +1,4 @@
+
 /* header  */
 nav {
   margin-top: 30px;
@@ -47,3 +48,72 @@ nav li:nth-child(7) {
 /*   */
 
 /*   */
+
+body {
+  text-align: center;
+}
+
+main {
+  padding: 5em 0 0 0;
+  margin: auto 18.5%;
+}
+
+.listItems {
+  width: 899px;
+}
+
+#chocoTitle {
+  display: inline-block;
+}
+
+#chocoTitle p {
+  float: left;
+  margin-top: 0;
+  margin: 0 0 2em 0;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+h1 {
+  float: left;
+  margin-bottom: 0;
+}
+
+main p {
+  text-align: left;
+}
+
+.notepad div {
+  position: absolute;
+  height: 305px;
+}
+
+#leftItems, #rightItems {
+  position: absolute;
+  margin-top: 5em;
+}
+
+#leftItems {
+  left: 5%;
+}
+
+#rightItems {
+  right: 15%;
+}
+
+li {
+  font-size: 20px;
+  list-style-type: none;
+  text-align: left;
+}
+
+input {
+  margin-right: 2em;
+}
+
