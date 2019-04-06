@@ -109,7 +109,6 @@ p + p {
   height: 305px;
   background-image: url(img/list-bg.png);
   margin-top: 20px;
-
 }
 
 #leftItems,
@@ -127,7 +126,7 @@ p + p {
   width: 400px;
 }
 
-input[type="checkbox"] {
+input[type='checkbox'] {
   background: none;
 }
 
@@ -173,18 +172,42 @@ footer section button {
   background-color: #bc6f58;
   height: 60px;
   width: 200px;
+  position: relative;
+  bottom: 50px;
+}
+
+footer h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
 }
 
 footer > section::after {
   clear: both;
 }
 
+footer p {
+  color: #979ba0;
+  width: 70%;
+  margin: 0px;
+}
+
+footer li {
+  display: inline-block;
+}
+
 hr {
-  display: block;
-  height: 1px;
+  color: grey;
   width: 40%;
 }
-footer section:last-child hr img {
+
+footer section:last-child {
+  border-bottom: thin solid grey;
+}
+footer section:last-child img {
+  display: block;
   float: none;
-  margin: 0px 10px;
+  margin: auto;
+  position: relative;
+  top: 25px;
+  box-shadow: -1px 3px 5px 15px #ffffff;
 }
